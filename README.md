@@ -1,3 +1,3 @@
 # Odin-Landing-Page
 
-Testing commit 123
+Landing page for a basic website coded in CSS and HTML
