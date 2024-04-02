@@ -1,11 +1,14 @@
+
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    height: 100vh;
 }
 
 .header {
+    flex: 1;
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
@@ -21,15 +24,61 @@ body {
 
 }
 
-a:link {
+.footer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background-color: #1f2937;
+}
+
+.call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    background-color: #3882F6;
+    color: white;
+    margin: 32px 200px 32px 200px;
+    padding: 32px 200px 32px 200px;
+}
+
+
+.sign-up-botton {
+    background-color: transparent;
+    color: white;
+    outline: 16px;
+    outline-color: white;
+    font-size: 16px;
+}
+
+
+a.class1:link {
     font-size: 16px;
     text-decoration: none;
     color: lightgrey;
 }
 
-a:visited {
+a.class1:visited {
     color: grey;
     text-decoration: none;
+}
+
+a.class2:link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a.class2:visited {
+    color: White;
+    text-decoration: none;
+    font-size: 16px;
+    
 }
 
 ul {
