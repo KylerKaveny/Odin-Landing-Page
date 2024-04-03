@@ -36,24 +36,114 @@ body {
     background-color: #1f2937;
 }
 
-.call-to-action{
+.information {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    margin: 0px;
+    padding: 16px;
+}
+
+.info-header {
+    color: black;
+    size: 40 px;
+    font-weight: 900;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.info-containers {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.info-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.subtext {
+    display: flex;
+    align-items: center;
+    max-width: 100px;
+
+}
+
+.image {
+    gap: 8px;
+    color: transparent;
+    outline: 4px solid blue;
+    padding: 50px 50px 50px 50px;
+    border-radius: 5px;
+}
+
+.quote {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    padding: 100px 350px 100px 350px;
+    
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: black;
+}
+.quote-author {
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: right;
+}
+
+.call-to-action{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #3882F6;
     color: white;
-    margin: 32px 200px 32px 200px;
-    padding: 32px 200px 32px 200px;
+    margin: 100px 200px 100px 200px;
+    padding: 10px 200px 10px 200px;
+    border-radius: 16px;
+}
+
+.call-to-action-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.call-to-action-header {
+    font-size: 24px;
+    font-weight: 900;
 }
 
 
-.sign-up-botton {
+
+
+.sign-up-button {
     background-color: transparent;
     color: white;
-    outline: 16px;
+    outline: 2px;
     outline-color: white;
+    outline-style: solid;
     font-size: 16px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 16px;
 }
 
 
